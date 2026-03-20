@@ -5,10 +5,10 @@
 - HTML
 - CSS
 - JS
-- 
+  
 ## Preview
 
-[![Watch the video]((https://youtu.be/JIJ2v7CjAQ4))
+[![Watch the video](https://youtu.be/JIJ2v7CjAQ4)
 
 🔗 Live Demo: https://github.com/JoaoVictorAlmeidaDe/Simple-login-page/tree/main
 
