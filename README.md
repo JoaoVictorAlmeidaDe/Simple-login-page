@@ -8,7 +8,8 @@
   
 ## Preview
 
-[![Watch the video](https://img.youtube.com/vi/iamcfWo4QCQ/maxresdefault.jp xg)](https://youtu.be/JIJ2v7CjAQ4)
+[![Watch the video](<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/90970770-2895-431e-b92e-4b8cb9dd65ed" />
+)](https://youtu.be/JIJ2v7CjAQ4)
 
 🔗 Live Demo: https://github.com/JoaoVictorAlmeidaDe/Simple-login-page/tree/main
 
