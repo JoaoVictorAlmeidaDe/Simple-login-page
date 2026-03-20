@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login treiner</title>
+
+  <link rel="stylesheet" href="../_css/style-css.css">
+</head>
+
+<body>
+  <header id="titulos">
+    <h1>Boas-vindas</h1>
+  </header>
+  <div id="container">
+
+    <!-- LOGIN -->
+
+    <div id="loginBox" class="form-box">
+      <form action="#" id="lead">
+        <label class="label01">Faça seu login</label>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <button type="submit" id="login1"><a href="#">LOGIN</a></button>
+        <p>Não tem conta?<a href="#" onclick="mostrarRegister()" class="registrar01">Registrar!</a></p>
+      </form>
+    </div>
+
+    <!-- REGISTER -->
+    <div id="registerBox" class="form-box">
+      <form>
+        <label class="label02">Faça seu registro aqui:</label>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm your Password">
+        <button type="submit" id="login1"><a href="#">REGISTER</a></button>
+        <p>
+          <a href="javascript:void(0)" onclick="mostrarLogin()">Voltar ao login</a>
+        </p>
+    </div>
+    </form>
+  </div>
+  </div>
+  <script>
+    function mostrarRegister() {
+
+      document.getElementById("loginBox").style.display = "none";
+      document.getElementById("registerBox").style.display = "block";
+
+    }
+
+    function mostrarLogin() {
+
+      document.getElementById("registerBox").style.display = "none";
+      document.getElementById("loginBox").style.display = "block";
+
+    }
+  </script>
+</body>
+
+</html>
